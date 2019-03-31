@@ -1,7 +1,7 @@
 ## Detect Aircraft in Satellite Imagery
 
 #### Problem
-The purpose of this project is to detect the location of planes in satellite images collected over airports and other spaces. The automation of satellite imagery analysis may provide unique insights into various markets such as agriculture, defense, intelligence, energy, and/or finance. The current project is structured as a binary classification problem aimed at labeling each satellite image as containing a plane or not containing a plane. Five Machine Learning models (i.e., Logistic Regression, K-Nearest Neighbors, Random Forest, AdaBoost, and Gradient Boosting), and two Convolutional Neural Networks are optimized, trained, and tested for detection planes in a dataset of 32,000 satellite image chips collected over California.
+The purpose of this project is to detect the location of planes in satellite images collected over airports and other spaces. The automation of satellite image analysis may provide unique insights into various markets such as agriculture, defense, intelligence, energy, and/or finance. The current project is structured as a binary classification problem aimed at labeling each satellite image as containing a plane or not containing a plane. Five Machine Learning algorithms (i.e., Logistic Regression, K-Nearest Neighbors, Random Forest, AdaBoost, and Gradient Boosting), and two Convolutional Neural Networks are optimized, trained, and tested to detect planes in a dataset of 32,000 satellite image chips collected over California.
 
 #### Jupyter Notebooks
 * Stage 1 includes data import, exploratory data analysis, and bootstrap hypothesis testing.
@@ -12,7 +12,7 @@ The purpose of this project is to detect the location of planes in satellite ima
 * Final Presentation includes a slide deck of key points and take-aways from the study.
 
 #### Datasets
-The PlanesNet data are included in the Kaggle dataset “Planes in Satellite Imagery”, provided by Planet Labs Inc. The data are 20x20 images, each with three bands, in a JSON formatted file containing data, labels, scene id's, and location metadata. A total of 32,000 images are provided, the total JSON file size is 191 Mb. Satellite imagery used to build PlanesNet is made available through Planet's Open California dataset, which is openly licensed.
+The PlanesNet data are included in the Kaggle dataset “Planes in Satellite Imagery”, provided by Planet Labs Inc. The data are 20x20 images, each with three bands, in a JSON formatted file containing data, labels, scene id's, and location metadata. A total of 32,000 images are provided, the total JSON file size is 191 Mb. Satellite imagery used to build PlanesNet is made available through Planet Labs' Open California dataset, which is openly licensed.
 
 The Kaggle dataset can be found here:
 * https://www.kaggle.com/rhammell/planesnet#planesnet.json
