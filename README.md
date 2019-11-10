@@ -31,8 +31,4 @@ Can satellite imagery be used to effectively identify aircraft on the ground? Ho
 #### Business Case and Clients/Stakeholders
 Satellite imagery provides unique insights into various markets, including agriculture, defense and intelligence, energy, and finance. 
 
-#### Deliverables	
-* Report and/or article
-* Code
-* Slide deck
 
